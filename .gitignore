@@ -3,6 +3,23 @@
 # website: https://www.langchain.com/langgraph
 
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
 
 # LangGraph
 .langgraph_api/
