@@ -1,0 +1,9 @@
+{
+    "_comment": "embeddings_type must be faiss or pinecone. embeddings_action must be create or append or load",
+    "embeddings_type": "pinecone",                    
+    "embeddings_action": "load",                    
+    "pinecone_index": "mytest",
+    "pinecone_namespace": "mytest_testdocs",
+    "faiss_index_path": "my_test_faiss_vector_store",
+    "documents_path": "testdocs"
+}
